@@ -1,0 +1,189 @@
+/*setup tags*/
+
+@font-face {
+    font-family: bankgothic;
+    src: url(fonts/bgothm.ttf);
+}
+
+@font-face {
+    font-family: gothic;
+    src: url(fonts/GOTHIC.TTF);
+}
+
+@font-face {
+    font-family: gothicb;
+    src: url(fonts/GOTHICB.TTF);
+}
+
+
+/*general tags*/
+
+
+
+a {
+    color: white;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+.nav.nav-pills.nav-justified {
+     margin-bottom: 20px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+h1 {
+    color: #3581fc;
+    font-family: bankgothic;
+    font-size: 50px;
+    text-align: center;
+    animation-name: fadein;
+    animation-duration: 2s;
+    padding-bottom: 20px;
+}
+
+ul {
+    font-family: "century gothic";
+}
+
+p {
+    color: white;
+    font-family: gothic;
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+h2, h4, li, h5 {
+    color: white;
+    font-family: gothic;
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+.nostyle {
+    color: white;
+    text-shadow: 0px 0px;
+    font-family: sans-serif;
+}
+
+.gothic {
+    font-family: gothic;
+}
+
+.pfont {
+    font-size: 20px;
+}
+
+.padding {
+    padding: 1em;
+}
+
+.dropshadow {
+    text-shadow: 1px 0px 0px #001e4f, -1px 0px 0px #001e4f, 0px 1px 0px #001e4f, 0px -1px 0px #001e4f;
+}
+
+.title {
+    color: #2260e8;
+}
+
+.padbelow {
+    padding-bottom: 30px;
+}
+
+/*resume tags*/
+
+
+.outline {
+    border: 3px solid #2260e8;
+    border-radius: 5px;
+}
+
+.resumeheading {
+    color: #2260e8;
+}
+
+
+/*projects tags*/
+
+
+.date {
+    color: #75d5ff;
+}
+
+.projectborder {
+    border: 3px solid #2260e8;
+    border-radius: 5px;
+}
+
+.projectpadding {
+    padding: 0em;
+}
+
+.footerpadding {
+    padding-top: 30px;
+}
+
+
+/*nav tags*/
+
+
+.navborder {
+    border: 1px solid #777777;
+    border-radius: 0px;
+}
+
+.navbuttonborder {
+    border-left: 1px solid #777777;
+}
+
+.current {
+    background-color: #2260e8;
+    font-size: 20px;
+}
+
+.navmargin {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/*animations*/
+
+
+@keyframes title {
+    from {font-size: 0}
+    to {font-size: 50}
+}
+
+@keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes hover {
+    0%,100% {background-color: #1c1c1c}
+    50% {background-color: #75d5ff;}
+}
+
+.flyin {
+    animation-name: title;
+    animation-duration: 1s;
+}
+
+.fadein {
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+.navitem:hover {
+    color: white;
+    animation: hover 2s linear infinite;
+    background-color: #75d5ff;
+}
+
+img {
+    animation-name: fadein;
+    animation-duration: 5s;
+}
